@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  
+
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+
+
+.main-imagem{
+ background-image: url(/assets/img/dieta\ roxa.svg);
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+
+.paragrafo-resultado{
+  background: green;
+  padding: 0.5rem 0.5rem;
+
+}
+
+
+.bad{
+  padding: 0.5rem 0.5rem;
+  background-color:crimson;
+ 
+}
+
+.intro-img {
+
+
+  background-position: center;
+  justify-content: center;
+  display: flex;
+
+  max-height: 50rem;
+  overflow: hidden;
+ 
+
+
+}
+
+.intro-img img{
+  top: 0;
+  left: 0;
+  
+
+}
+
+.paragrafo-resultado{
+  position: relative;
+
+}
+
+.espaço{
+  z-index: 1;
+  
+  height: 19px;
+}
+
+
+
+#resultado{
+ height: 29px;
+ padding: 0.3rem 0.3rem;
+
+}
